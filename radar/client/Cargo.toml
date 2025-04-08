@@ -10,7 +10,7 @@ cs2 = { version = "0.1.0", path = "../../cs2" }
 log = "0.4.20"
 obfstr = "0.4.3"
 radar-shared = { version = "0.1.0", path = "../shared" }
-tokio = { version = "1.34.0", features = ["rt", "time", "macros", "sync"] }
+tokio = { version = "1.38.2", features = ["rt", "time", "macros", "sync"] }
 tokio-bincode = "0.1.0"
 tokio-util = { version = "0.7.10", features = ["codec"] }
 cs2-schema-generated = { version = "0.1.0", path = "../../cs2-schema/generated" }
